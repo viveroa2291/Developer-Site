@@ -1,0 +1,60 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+header>a {
+    text-decoration: none;
+    color: black;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.hello {
+    font-family: 'Times New Roman', Times, serif;
+}
+.text {
+    margin-top: 3rem;
+    margin-left: 1rem;
+}
+.title {
+    font-family: 'Times New Roman', Times, serif;
+    color: gray;
+}
+.quote {
+    width: 50%;
+}
+.dash {
+    color: gray;
+    margin-right: 1rem;
+    border-radius: 50%;
+}
+.phone-image {
+    height: 200px;
+    position: sticky;
+    top: 0;
+}
+.images {
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+}
+.scroll-down {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    margin-top: 15rem;
+    transform: rotate(-270deg);
+}
+.image-scroll {
+    display: flex;
+    flex-direction: row;
+}
+.image-one {
+    background-color: aqua;
+}
+.image-two {
+    background-color: bisque;
+}
+.testing {
+    background-color: black;
+    width: fit-content;
+}
