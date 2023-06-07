@@ -6,8 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adan's Developer Site</title>
 <link rel="stylesheet" href="css/home.css">
+<link rel="stylesheet" href="css/projects-section.css">
+<link rel="stylesheet" href="css/about.css">
 </head>
 <body>
+    <section class="home-section">
     <header>
         <a href="#home">Home</a>
         <a href="#work">Work</a>
@@ -15,27 +18,38 @@
         <a href="#contact">Contact</a>
     </header>
     <main>
-        <div class="text">
-           <h1 class="hello"><span class="dash">&mdash;</span>Hello</h1>
-            <h2>I'm Adan Vivero</h2>
-            <p class="title">Full-Stack Web Developer</p>
-            <p class="quote">We live in a world constructed of code - and coders are the ones who built it for us.</p> 
-        </div>
-        <section class="image-scroll">
-            <div class="images">
-                <section class="testing">
+            <div class="text">
+                <h1 class="hello"><span class="dash">&mdash;</span>Hello</h1>
+                    <h2>I'm Adan Vivero</h2>
+                    <p class="title">Full-Stack Web Developer</p>
+                    <p class="quote">We live in a world constructed of code - and coders are the ones who built it for us.</p> 
+            </div>
+            <div class="image-scroll" id="home">
+                <div class="images">
                     <img class="phone-image image-one" src="images/phone.png" alt="Me looking at my phone">
-                </section>
-                <img class="phone-image image-two" src="images/acapulco.png" alt="Acapulco">
-                <img class="phone-image" src="images/chicago.png" alt="Chicago">
-                <img class="phone-image" src="images/door-county.png" alt="Door County">
-                <img class="phone-image" src="images/thumbs-up.png" alt="Thumbs up">
+                    <!--
+                    <img class="phone-image image-two" src="images/acapulco.png" alt="Acapulco">
+                    <img class="phone-image image-three" src="images/chicago.png" alt="Chicago">
+                    <img class="phone-image image-four" src="images/door-county.png" alt="Door County">
+                    <img class="phone-image image-five" src="images/thumbs-up.png" alt="Thumbs up"> 
+                    -->  
+                </div>
+                <div>
+                <h3 class="scroll-down">Scroll Down <span>&#8594;</span></h3>
+                </div>
+            </div>   
+        </section>
+        
+        <section class="project-section" id="work">
+            <h1 class="project-header">These are some of my projects</h1>
+        </section>
+       <section class="about-section" id="about">
+            <h1 class="about-header">About Me</h1>
+            <div class="about-paragraph">
+                <p>I am a <u>Full-Stack | Java | Web | Mobile</u> developer from the United States. I currently reside in Chicago, Illinois.</p>
+                <p>I enjoy taking up complex problems and turning them into simple and beautiful interface design. I also love logic and structure of coding and always strive to white elegant and efficient code, whether it would be HTML, CSS, or Javascript. I have been coding since the age of 18 consisting of 7 years of programming.</p>  
             </div>
-            <div>
-              <h3 class="scroll-down phone-image">Scroll Down <span>&#8594;</span></h3>
-            </div>
-          </section>
-       
+       </section>
     </main>
    
 </body>

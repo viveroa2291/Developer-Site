@@ -1,7 +1,15 @@
+@import "https://fonts.googleapis.com/css?family=Share+Tech+Mono";
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap");
+
+body {
+    background-color: rgb(218, 196, 247);
+}
 header {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    margin-top: 1rem;
+    background: rgb(218, 196, 247);
 }
 header>a {
     text-decoration: none;
@@ -9,12 +17,16 @@ header>a {
     margin-left: 1rem;
     margin-right: 1rem;
 }
+.home-section {
+    background-color: rgb(218, 196, 247);
+}
 .hello {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Fira Code";
 }
 .text {
     margin-top: 3rem;
     margin-left: 1rem;
+    font-family: "Fira Code";
 }
 .title {
     font-family: 'Times New Roman', Times, serif;
@@ -28,32 +40,54 @@ header>a {
     margin-right: 1rem;
     border-radius: 50%;
 }
+/*
 .phone-image {
-    height: 200px;
+    height: 250px;
+    width: 90px;
     position: sticky;
     top: 0;
 }
+*/
 .images {
-    height: 200vh;
+   /* height: 200vh; */
     display: flex;
     flex-direction: column;
+    margin-top: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .scroll-down {
     font-family: 'Times New Roman', Times, serif;
     font-size: 16px;
     margin-top: 15rem;
-    transform: rotate(-270deg);
+    margin-left: 10rem;
+    transform: rotate(-270deg); 
+    right: 0;
 }
 .image-scroll {
     display: flex;
     flex-direction: row;
 }
 .image-one {
-    background-color: aqua;
+    height: 250px;
+    
+    /* background-color: aqua; */
 }
+/*
 .image-two {
     background-color: bisque;
 }
+.image-three {
+    background-color: rebeccapurple;
+}
+.image-four {
+    background-color: orange;
+}
+.image-five {
+    background-color: green;
+}
+*/
 .testing {
     background-color: black;
     width: fit-content;
