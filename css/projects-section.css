@@ -1,5 +1,7 @@
 .project-section {
-    background-color: rgb(214, 214, 214);
+    background-color: rgb(230, 227, 227);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 .project-header {
     text-align: center;
@@ -7,6 +9,8 @@
 .projects-body {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
 }
 .linktree-image {
     display: block;
@@ -19,15 +23,19 @@
  
 }
 .project-div {
-    background-color: white;
-    height: 50%;
+    background-color: rgb(223, 230, 255);
     width: 50%;
     border-radius: 1rem;
 }
 .project-text {
     text-align: center;
     padding: 15px 5px;
-    background-color: blue;
-    margin: 1rem 2rem 10rem 2rem;
+    background-color: white;
+    margin: 1rem 2rem 0rem 2rem;
     border-radius: 5rem;
+}
+@media (max-width: 890px) {
+    .project-div {
+        width: 100%; /* Adjust width for two per row */
+    }
 }
