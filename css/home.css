@@ -30,6 +30,7 @@ header>a:hover {
 }
 .hello {
     font-family: "Fira Code";
+    margin-top: 5rem;
 }
 .text {
     margin-top: 3rem;
@@ -54,18 +55,14 @@ header>a:hover {
     top: 0;
 }
 */
-.images {
-   /* height: 200vh; */
+.images { 
     display: flex;
-    flex-direction: column;
-    margin-top: 1rem;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    justify-content: center;
+   /* height: 200vh; */
 }
 .scroll-down {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 16px;
+    font-size: 20px;
     margin-top: 15rem;
     margin-left: 10rem;
     transform: rotate(-270deg); 
@@ -77,9 +74,23 @@ header>a:hover {
 }
 .image-one {
     height: 250px;
-    
     /* background-color: aqua; */
 }
+.social {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.social>a {
+    text-decoration: none;
+}
+.email {
+    color: gray;
+}
+
 /*
 .image-two {
     background-color: bisque;
