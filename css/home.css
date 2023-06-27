@@ -26,11 +26,12 @@ header>a:hover {
     cursor: pointer;
 }
 .home-section {
-    background-color: rgb(218, 196, 247);
+    /* background-color: rgb(218, 196, 247); */
+    margin-bottom: 16rem;
 }
 .hello {
     font-family: "Fira Code";
-    margin-top: 5rem;
+    margin-top: 6.5rem;
 }
 .text {
     margin-top: 3rem;
@@ -40,57 +41,39 @@ header>a:hover {
 }
 .title {
     font-family: 'Times New Roman', Times, serif;
-    color: gray;
+    font-size: 16px;
 }
 .dash {
     color: gray;
     margin-right: 1rem;
     border-radius: 50%;
 }
-/*
+/* 
 .phone-image {
     height: 250px;
     width: 90px;
     position: sticky;
     top: 0;
-}
+} 
 */
 .images { 
     display: flex;
     justify-content: center;
+    margin-bottom: 10rem;
    /* height: 200vh; */
 }
 .scroll-down {
+    position: absolute;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
-    margin-top: 15rem;
-    margin-left: 10rem;
     transform: rotate(-270deg); 
     right: 0;
-}
-.image-scroll {
-    display: flex;
-    flex-direction: row;
+    top: 75%;
 }
 .image-one {
-    height: 250px;
-    /* background-color: aqua; */
+    margin-top: 2.5rem;
+    height: 200px;
 }
-.social {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    margin-top: 5rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-.social>a {
-    text-decoration: none;
-}
-.email {
-    color: gray;
-}
-
 /*
 .image-two {
     background-color: bisque;
@@ -109,6 +92,116 @@ header>a:hover {
     background-color: black;
     width: fit-content;
 }
-@media (max-width: 890px) {
+.sun {
+    position: absolute;
+    background-color: yellow;
+    padding: 35px 35px;
+    border-radius: 50%;
+}
+.curve, .curve2, .curve3 {
+    display: inline-block;
+    position: absolute;
+    width: 50px; 
+    height: 10px;  
+    border: solid 3.5px gold;
+    border-color: gold transparent transparent transparent;
+    border-radius: 50%/15px 15px 0 0;
+  }
+.curve {
+    margin-left: 5.5rem;
+   /* transform: rotate(-15deg); */
+  }
+.curve2 {
+    margin-top: 3rem;
+    margin-left: 3.75rem;
+    /* transform: rotate(35deg); */
+  }
+.curve3 {
+    margin-top: 5rem;
+    margin-left: 10rem;
+    /* transform: rotate(90deg); */
+  }
+.earth {
+    display: inline-block;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background: url(https://web.archive.org/web/20150807125159if_/http://www.noirextreme.com/digital/Earth-Color4096.jpg);
+    border-radius: 50%;
+    background-size: 610px;
+    box-shadow: inset 8px 36px 80px 36px rgb(0, 0, 0), inset -6px 0 12px 4px rgba(255, 255, 255, 0.3);
+    animation-name: rotate;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    -webkit-animation-name: rotate;
+    -webkit-animation-duration: 30s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    z-index: -1;
+  }
+  @keyframes rotate {
+    from {
+      background-position: 0px 0px;
+    }
+    to {
+      background-position: 610px 0px;
+    }
+  }
+  @-webkit-keyframes rotate {
+    from {
+      background-position: 0px 0px;
+    }
+    to {
+      background-position: 610px 0px;
+    }
+}
+.moon {
+    position: absolute;
+    background-color: rgb(230, 224, 224);
+    padding: 35px 35px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 8px 2px rgba(235, 235, 231, 0.301);
+    right: 0;
+}
+.crater, .crater2, .crater3 {
+    position: absolute;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: transparent;
+    box-shadow: inset 2px 0 4px rgba(167, 167, 167, 0.685);
+}
+.crater {
+    margin-right: 2rem;
+    margin-top: 1rem;
+}
+.crater2 {
+    height: 15px;
+    width: 15px;
+    margin-right: .75rem;
+    margin-top: 3rem;
+}
+.crater3 {
+    margin-right: 2.75rem;
+    margin-top: 2.75rem; 
+}
+.crater4 {
+    position: absolute;
+    right: 0;
+    width: 6.5px;
+    height: 6.5px;
+    margin-right: 1.3rem;
+    margin-top: 1.75rem;
+    border-radius: 50%;
+    background-color: transparent;
+    box-shadow: inset 2px 0 4px rgba(167, 167, 167, 0.685); 
+}
+  @media (max-width: 890px) {
     
 }

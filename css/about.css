@@ -1,3 +1,17 @@
+.social {
+    
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.social>a {
+    text-decoration: none;
+}
+.email {
+    color: gray;
+}
 .about-section {
     background-color: white;
     padding-bottom: 1rem;
