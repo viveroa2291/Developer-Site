@@ -12,15 +12,21 @@
     justify-content: center;
     justify-content: space-around;
 }
-.linktree-image {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    height: 50%;
-    width: 50%;
+.linktree-link {
+    position: absolute;
+    display: inline-block;
+    
+    border: red 2px solid;
+}
+.linktree-site {
+    
+    
+    height: 200px;
+    width: 100%;
+    /*
     padding: 1rem;
     border-radius: 2rem;
- 
+    */
 }
 .project-div {
     /* background-color: rgb(223, 230, 255); */
@@ -37,5 +43,8 @@
 @media (max-width: 890px) {
     .project-div {
         width: 100%; /* Adjust width for two per row */
+    }
+    .linktree-site {
+        width: 75%;
     }
 }

@@ -25,6 +25,13 @@ header>a {
 header>a:hover {
     cursor: pointer;
 }
+.music {
+    display: inline-block;
+    position: absolute;
+    margin-top: -4rem;
+    left: 50%;
+    right: 50%;
+}
 .home-section {
     /* background-color: rgb(218, 196, 247); */
     margin-bottom: 16rem;
@@ -203,5 +210,8 @@ header>a:hover {
     box-shadow: inset 2px 0 4px rgba(167, 167, 167, 0.685); 
 }
   @media (max-width: 890px) {
-    
+    .music {
+        left: 25%;
+        height: 25px;
+    }
 }
