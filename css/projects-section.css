@@ -12,32 +12,36 @@
     justify-content: center;
     justify-content: space-around;
 }
-.linktree-link {
-    position: absolute;
+.linktree-link, .cancun-link {
     display: inline-block;
+    text-align: center;
     
-    border: red 2px solid;
+    padding: 1rem 0;
+    border-radius: 1rem;
 }
-.linktree-site {
-    
-    
+.linktree-link .linktree-site {
+    pointer-events: none;
+}
+.cancun-link .cancun-site {
+    pointer-events: none;
+}
+.linktree-site, .cancun-site  {
     height: 200px;
     width: 100%;
-    /*
-    padding: 1rem;
-    border-radius: 2rem;
-    */
+    border-radius: 1rem;
+    text-align: center;
 }
 .project-div {
     /* background-color: rgb(223, 230, 255); */
     width: 50%;
     border-radius: 1rem;
+    background-color: wheat;
 }
 .project-text {
     text-align: center;
     padding: 15px 5px;
     background-color: white;
-    margin: 1rem 2rem 0rem 2rem;
+    margin: -1rem 2rem 0rem 2rem;
     border-radius: 5rem;
 }
 @media (max-width: 890px) {
