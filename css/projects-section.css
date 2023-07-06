@@ -25,6 +25,18 @@
 .cancun-link .cancun-site {
     pointer-events: none;
 }
+/*
+.cancun-site {
+    -webkit-transform: scale(.5);
+    height: 200px;
+    width: auto;
+}
+#linktree {
+    -webkit-transform: scale(.75);
+    height: 250px;
+    width: auto;
+}
+*/
 .linktree-site, .cancun-site  {
     height: 175px;
     width: 100%;
@@ -34,8 +46,8 @@
 .project-div {
     background-color: rgb(223, 230, 255);
     border-radius: 1rem;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     box-shadow: 1px 1px 1rem  black inset;
 }
 .project-text {
