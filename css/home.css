@@ -4,6 +4,12 @@
 body {
     background-color: rgb(218, 196, 247);
 }
+.music-button {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    font-size: 10px;
+}
 header {
     display: flex;
     flex-direction: row;
@@ -26,11 +32,7 @@ header>a:hover {
     cursor: pointer;
 }
 .music {
-    display: inline-block;
-    position: absolute;
-    margin-top: -4rem;
-    left: 50%;
-    right: 50%;
+    display: none;
 }
 .home-section {
     /* background-color: rgb(218, 196, 247); */
