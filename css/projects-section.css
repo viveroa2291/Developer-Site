@@ -15,7 +15,6 @@
 .linktree-link, .cancun-link {
     display: inline-block;
     text-align: center;
-    
     padding: 1rem 0;
     border-radius: 1rem;
 }
@@ -27,20 +26,21 @@
 }
 /*
 .cancun-site {
-    -webkit-transform: scale(.5);
-    height: 200px;
+    -webkit-transform: scale(.75);
+    height: 150px;
     width: auto;
 }
 #linktree {
     -webkit-transform: scale(.75);
-    height: 250px;
+    height: 150px;
     width: auto;
 }
 */
 .linktree-site, .cancun-site  {
-    height: 175px;
+    height: 150px;
     width: 100%;
     border-radius: 1rem;
+    margin-bottom: 5px;
     text-align: center;
 }
 .project-div {
@@ -54,8 +54,9 @@
     text-align: center;
     padding: 15px 5px;
     background-color: white;
-    margin: -1rem 2rem 0rem 2rem;
+    margin: -1rem 2rem 1rem 2rem;
     border-radius: 1rem;
+    font-size: 14px;
 }
 @media (max-width: 890px) {
     .project-div {
