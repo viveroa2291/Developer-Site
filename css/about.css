@@ -1,30 +1,48 @@
-.social {
-    margin-bottom: 2rem;
-    margin-top: 1rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-.social>a {
-    text-decoration: none;
-}
-.email {
-    color: gray;
-}
 .about-section {
     background-color: white;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+.description {
+    width: 50%;
 }
 .about-header {
     text-align: center;
     font-size: 54px;
-    padding-top: 5rem;
 }
-.about-paragraph {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-left: 1rem;
-    margin-right: 2.5rem;
-    margin-bottom: 5rem;
+.svg {
+    width: 50%;
+}
+.github-svg, .javascript-svg, .html-svg, .kotlin-svg, .css-svg, .gitlab-svg, .c-svg, .vs-code-svg, .xcode-svg, .cpp-svg {
+    transform: scale(.5);
+}
+.java-svg, .php-svg  {
+    transform: scale(.75);
+}
+@media (max-width: 890px) {
+    .about-section {
+        display: block;
+    }
+    .description {
+        width: 100%;
+    }
+    .about-header {
+        padding-top: 5rem;
+    }
+    .about-paragraph {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-left: 2rem;
+        margin-right: 2.5rem;
+        margin-bottom: 5rem;
+        line-height: 1.5;
+    }
+    .tech {
+        display: none;
+    }
+    .svg {
+        display: none;
+    }
 }

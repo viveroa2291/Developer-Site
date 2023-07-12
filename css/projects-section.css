@@ -1,3 +1,16 @@
+.social {
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.social>a {
+    text-decoration: none;
+}
+.email {
+    color: gray;
+}
 .project-section {
     background-color: rgb(230, 227, 227);
     padding-top: 1rem;
