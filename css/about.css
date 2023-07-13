@@ -1,6 +1,6 @@
 .about-section {
     background-color: white;
-    padding-bottom: 2rem;
+    padding-bottom: 10rem;
     display: flex;
     flex-direction: row;
 }
@@ -11,15 +11,111 @@
     text-align: center;
     font-size: 54px;
 }
+.about-paragraph {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
 .svg {
     width: 50%;
 }
-.github-svg, .javascript-svg, .html-svg, .kotlin-svg, .css-svg, .gitlab-svg, .c-svg, .vs-code-svg, .xcode-svg, .cpp-svg {
-    transform: scale(.5);
+.github-span, .javascript, .html, .kotlin, .java, .css, .gitlab, .c, .vs-code, .xcode, .eclipse, .python, .php, .cpp, .bootstrap, .sql, .firebase, .workbench, .react, .terminal, .springboot, .intelij {
+    position: absolute;
 }
-.java-svg, .php-svg  {
+.github-span {
+    margin-left: -5rem;
+}
+.javascript {
+    margin-top: 6rem;
+    margin-left: 1rem;
+}
+.html {
+    margin-top: 12rem;
+    margin-left: -5rem;
+}
+.kotlin {
+    margin-top: 20rem;
+    margin-left: 6rem;
+}
+.java {
+    margin-top: 20rem;
+    left: 24rem;
+}
+.css {
+    margin-top: 23rem;
+    left: 3rem;
+}
+.gitlab {
+    margin-top: 26rem;
+    left: 10rem;
+}
+.c {
+    margin-top: 23rem;
+    left: 17rem;
+}
+.vs-code {
+    margin-top: 26rem;
+    margin-left: 9rem;
+}
+.xcode {
+    margin-top: 28rem;
+    left: 25rem;
+}
+.eclipse {
+    margin-top: 25.5rem;
+    margin-left: 29rem;
+}
+.python {
+    margin-top: 18rem;
+    margin-left: 19rem;
+}
+.php {
+    margin-top: 25rem;
+    left: 33rem;
+}
+.cpp {
+    margin-top: 20rem;
+    margin-left: -5rem;
+}
+.bootstrap {
+    margin-top: 27rem;
+    margin-left: -3rem;
+}
+.sql {
+    margin-top: 25rem;
+    margin-left: 19rem;
+}
+.firebase {
+    margin-top: 13rem;
+    margin-left: 5rem;
+}
+.workbench {
+    margin-top: 6rem;
+    margin-left: 14rem;
+}
+.react {
+    margin-left: 13rem;
+}
+.terminal {
+    margin-left: 5rem;
+}
+.springboot {
+    margin-top: 12rem;
+    margin-left: 15rem;
+}
+.intelij {
+    margin-top: 5rem;
+    margin-left: 25rem;
+}
+.github-svg, .javascript-svg, .html-svg, .kotlin-svg, .css-svg, .gitlab-svg, .c-svg, .vs-code-svg, .xcode-svg, .cpp-svg, .bootstrap-svg, .react-svg, .terminal-svg, .springboot-svg, .intelij-svg {
     transform: scale(.75);
 }
+/*
+.java-svg, .php-svg, .sql-svg, .firebase-svg, .workbench-svg {
+    transform: scale(.75);
+}
+*/
 @media (max-width: 890px) {
     .about-section {
         display: block;
@@ -31,11 +127,6 @@
         padding-top: 5rem;
     }
     .about-paragraph {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-left: 2rem;
-        margin-right: 2.5rem;
         margin-bottom: 5rem;
         line-height: 1.5;
     }

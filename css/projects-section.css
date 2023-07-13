@@ -61,6 +61,7 @@
     border-radius: 1rem;
     margin-left: 1rem;
     margin-right: 1rem;
+    margin-bottom: 3rem;
     box-shadow: 1px 1px 1rem  black inset;
 }
 .project-text {
@@ -74,6 +75,7 @@
 @media (max-width: 890px) {
     .project-div {
         width: 100%; /* Adjust width for two per row */
+        margin-bottom: 1rem;
     }
     .linktree-site {
         width: 75%;
