@@ -9,7 +9,7 @@
     text-decoration: none;
 }
 .email {
-    color: gray;
+    color: gray; 
 }
 .project-section {
     background-color: rgb(230, 227, 227);
@@ -50,11 +50,11 @@
 }
 */
 .linktree-site, .cancun-site  {
-    height: 150px;
-    width: 100%;
+    height: 250px;
     border-radius: 1rem;
-    margin-bottom: 5px;
     text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 .project-div {
     background-color: rgb(223, 230, 255);
@@ -79,5 +79,12 @@
     }
     .linktree-site {
         width: 75%;
+    }
+    .linktree-site, .cancun-site  {
+        height: 150px;
+        width: 100%;
+        margin-bottom: 5px;
+        margin-left: 0;
+        margin-right: 0;
     }
 }
