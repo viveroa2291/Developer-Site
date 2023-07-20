@@ -81,7 +81,7 @@ header>a:hover {
 }
 .image-one {
     margin-top: 2.5rem;
-    height: 200px;
+    height: 250px;
 }
 /*
 .image-two {
@@ -215,5 +215,11 @@ header>a:hover {
     .music {
         left: 25%;
         height: 25px;
+    }
+    .image-one {
+        height: 200px;
+    }
+    .moon {
+        right: 0;
     }
 }
