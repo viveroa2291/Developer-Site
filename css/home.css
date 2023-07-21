@@ -83,20 +83,6 @@ header>a:hover {
     margin-top: 2.5rem;
     height: 250px;
 }
-/*
-.image-two {
-    background-color: bisque;
-}
-.image-three {
-    background-color: rebeccapurple;
-}
-.image-four {
-    background-color: orange;
-}
-.image-five {
-    background-color: green;
-}
-*/
 .testing {
     background-color: black;
     width: fit-content;
@@ -115,7 +101,16 @@ header>a:hover {
     border: solid 3.5px gold;
     border-color: gold transparent transparent transparent;
     border-radius: 50%/15px 15px 0 0;
-  }
+}
+.moon-curve, .moon-curve2, .moon-curve3 {
+    display: inline-block;
+    position: absolute;
+    width: 50px; 
+    height: 10px;  
+    border: solid 3.5px white;
+    border-color: white transparent transparent transparent;
+    border-radius: 50%/15px 15px 0 0;
+}
 .curve {
     margin-left: 5rem;
    /* transform: rotate(-15deg); */
@@ -153,22 +148,6 @@ header>a:hover {
     -webkit-animation-timing-function: linear;
     z-index: -1;
   }
-  @keyframes rotate {
-    from {
-      background-position: 0px 0px;
-    }
-    to {
-      background-position: 610px 0px;
-    }
-  }
-  @-webkit-keyframes rotate {
-    from {
-      background-position: 0px 0px;
-    }
-    to {
-      background-position: 610px 0px;
-    }
-}
 .moon {
     position: absolute;
     background-color: rgb(230, 224, 224);
@@ -221,5 +200,74 @@ header>a:hover {
     }
     .moon {
         right: 0;
+    }
+    .curve {
+        margin-top: 1rem;
+        margin-left: 5rem;
+        animation: sunrays 6s ease-in-out alternate infinite;
+       /* transform: rotate(-15deg); */
+      }
+    .curve2 {
+        margin-top: 3rem;
+        margin-left: 5rem;
+        animation: sunrays 6s ease-in-out alternate infinite;
+        /* transform: rotate(35deg); */
+      }
+    .curve3 {
+        margin-top: 2rem;
+        margin-left: 5rem;
+        animation: sunrays 6s ease-in-out alternate infinite;
+        /* transform: rotate(90deg); */
+      }
+    .moon-curve {
+        margin-top: 1rem;
+        animation: moonrays 6s ease-in-out alternate infinite;
+       /* transform: rotate(-15deg); */
+      }
+    .moon-curve2 {
+        margin-top: 2rem;
+        animation: moonrays 6s ease-in-out alternate infinite;
+        /* transform: rotate(35deg); */
+      }
+    .moon-curve3 {
+        margin-top: 3rem;
+        animation: moonrays 6s ease-in-out alternate infinite;
+        /* transform: rotate(90deg); */
+      }
+} 
+@keyframes rotate {
+    from {
+      background-position: 0px 0px;
+    }
+    to {
+      background-position: 610px 0px;
+    }
+  }
+  @-webkit-keyframes rotate {
+    from {
+      background-position: 0px 0px;
+    }
+    to {
+      background-position: 610px 0px;
+    }
+}
+@keyframes sunrays {
+    0% {
+        right: 70%;
+        z-index: -1;
+    }
+    100% {
+        right: 20%;
+        z-index: -1;
+    }
+}
+@keyframes moonrays {
+    from {
+        right: 20%;
+        z-index: 1;
+    }
+    to {
+        right: 70%;
+        z-index: 1;
     }
 }

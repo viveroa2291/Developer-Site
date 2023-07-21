@@ -37,18 +37,6 @@
 .cancun-link .cancun-site {
     pointer-events: none;
 }
-/*
-.cancun-site {
-    -webkit-transform: scale(.75);
-    height: 150px;
-    width: auto;
-}
-#linktree {
-    -webkit-transform: scale(.75);
-    height: 150px;
-    width: auto;
-}
-*/
 .linktree-site, .cancun-site  {
     height: 250px;
     border-radius: 1rem;
@@ -86,5 +74,8 @@
         margin-bottom: 5px;
         margin-left: 0;
         margin-right: 0;
+    }
+    .project-text {
+        font-size: 11px;
     }
 }
