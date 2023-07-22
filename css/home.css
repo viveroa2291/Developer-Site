@@ -98,8 +98,8 @@ header>a:hover {
     position: absolute;
     width: 50px; 
     height: 10px;  
-    border: solid 3.5px gold;
-    border-color: gold transparent transparent transparent;
+    border: solid 3.5px yellow;
+    border-color: yellow transparent transparent transparent;
     border-radius: 50%/15px 15px 0 0;
 }
 .moon-curve, .moon-curve2, .moon-curve3 {
@@ -113,17 +113,14 @@ header>a:hover {
 }
 .curve {
     margin-left: 5rem;
-   /* transform: rotate(-15deg); */
   }
 .curve2 {
     margin-top: 4rem;
     margin-left: 5rem;
-    /* transform: rotate(35deg); */
   }
 .curve3 {
     margin-top: 2rem;
     margin-left: 5rem;
-    /* transform: rotate(90deg); */
   }
 .earth {
     display: inline-block;
@@ -201,38 +198,30 @@ header>a:hover {
     .moon {
         right: 0;
     }
+    .curve, .curve2, .curve3 {
+        animation: sunrays 7s ease-in-out infinite;
+        margin-left: 5rem;
+      }
     .curve {
         margin-top: 1rem;
-        margin-left: 5rem;
-        animation: sunrays 6s ease-in-out alternate infinite;
-       /* transform: rotate(-15deg); */
       }
     .curve2 {
         margin-top: 3rem;
-        margin-left: 5rem;
-        animation: sunrays 6s ease-in-out alternate infinite;
-        /* transform: rotate(35deg); */
       }
     .curve3 {
         margin-top: 2rem;
-        margin-left: 5rem;
-        animation: sunrays 6s ease-in-out alternate infinite;
-        /* transform: rotate(90deg); */
+      }
+    .moon-curve, .moon-curve2, .moon-curve3 {
+        animation: moonrays 7s ease-in-out infinite;
       }
     .moon-curve {
         margin-top: 1rem;
-        animation: moonrays 6s ease-in-out alternate infinite;
-       /* transform: rotate(-15deg); */
       }
     .moon-curve2 {
         margin-top: 2rem;
-        animation: moonrays 6s ease-in-out alternate infinite;
-        /* transform: rotate(35deg); */
       }
     .moon-curve3 {
         margin-top: 3rem;
-        animation: moonrays 6s ease-in-out alternate infinite;
-        /* transform: rotate(90deg); */
       }
 } 
 @keyframes rotate {
@@ -256,18 +245,24 @@ header>a:hover {
         right: 70%;
         z-index: -1;
     }
-    100% {
+    50% {
         right: 20%;
-        z-index: -1;
+    }
+    100% {
+        right: 70%;
+        z-index: 1;
     }
 }
 @keyframes moonrays {
-    from {
+    0% {
         right: 20%;
         z-index: 1;
     }
-    to {
+    50% {
         right: 70%;
-        z-index: 1;
+    }
+    100% {
+        right: 20%;   
+        z-index: -1;
     }
 }
