@@ -37,6 +37,7 @@ header>a:hover {
 .home-section {
     /* background-color: rgb(218, 196, 247); */
     margin-bottom: 16rem;
+    display: block;
 }
 .hello {
     font-family: "Fira Code";
@@ -57,14 +58,6 @@ header>a:hover {
     margin-right: 1rem;
     border-radius: 50%;
 }
-/* 
-.phone-image {
-    height: 250px;
-    width: 90px;
-    position: sticky;
-    top: 0;
-} 
-*/
 .images { 
     display: flex;
     justify-content: center;
@@ -260,6 +253,7 @@ header>a:hover {
     }
     50% {
         right: 10%;
+        transform: rotateY(75deg);
     }
     100% {
         right: 85%;
@@ -273,6 +267,7 @@ header>a:hover {
     }
     50% {
         right: 85%;
+        transform: rotateY(75deg);
     }
     100% {
         right: 10%;   
@@ -286,6 +281,7 @@ header>a:hover {
     }
     50% {
         right: 20%;
+        transform: rotateY(55deg);
     }
     100% {
         right: 70%;
@@ -299,6 +295,7 @@ header>a:hover {
     }
     50% {
         right: 70%;
+        transform: rotateY(55deg); 
     }
     100% {
         right: 20%;   
