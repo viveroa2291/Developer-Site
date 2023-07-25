@@ -102,6 +102,18 @@ header>a:hover {
     border-color: yellow transparent transparent transparent;
     border-radius: 50%/15px 15px 0 0;
 }
+.curve {
+    margin-top: 1rem;
+  }
+.curve2 {
+    margin-top: 2rem;
+  }
+.curve3 {
+    margin-top: 3rem;
+  }
+.curve, .curve2, .curve3 {
+    animation: sunrays-large 15s ease-in-out infinite;
+}
 .moon-curve, .moon-curve2, .moon-curve3 {
     display: inline-block;
     position: absolute;
@@ -111,17 +123,18 @@ header>a:hover {
     border-color: white transparent transparent transparent;
     border-radius: 50%/15px 15px 0 0;
 }
-.curve {
-    margin-left: 5rem;
+.moon-curve {
+    margin-top: 1rem;
   }
-.curve2 {
-    margin-top: 4rem;
-    margin-left: 5rem;
-  }
-.curve3 {
+.moon-curve2 {
     margin-top: 2rem;
-    margin-left: 5rem;
   }
+.moon-curve3 {
+    margin-top: 3rem;
+  }
+.moon-curve, .moon-curve2, .moon-curve3 {
+    animation: moonrays-large 15s ease-in-out infinite;
+}
 .earth {
     display: inline-block;
     position: absolute;
@@ -201,7 +214,7 @@ header>a:hover {
     .curve, .curve2, .curve3 {
         animation: sunrays 7s ease-in-out infinite;
         margin-left: 5rem;
-      }
+    }
     .curve {
         margin-top: 1rem;
       }
@@ -239,6 +252,32 @@ header>a:hover {
     to {
       background-position: 610px 0px;
     }
+}
+@keyframes sunrays-large {
+    0% {
+        right: 85%;
+        z-index: -1;
+    }
+    50% {
+        right: 10%;
+    }
+    100% {
+        right: 85%;
+        z-index: 1;
+    }
+}
+@keyframes moonrays-large {
+    0% {
+        right: 10%;
+        z-index: 1;
+    }
+    50% {
+        right: 85%;
+    }
+    100% {
+        right: 10%;   
+        z-index: -1;
+    } 
 }
 @keyframes sunrays {
     0% {
