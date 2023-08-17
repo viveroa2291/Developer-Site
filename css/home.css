@@ -230,6 +230,15 @@ header>a:hover {
         margin-top: 3rem;
       }
 } 
+@media (max-width: 390px) {
+    .earth {
+        top: 80%;
+    }
+    .scroll-down {
+        right: -1rem;
+        font-size: 15px;
+    }
+}
 @keyframes rotate {
     from {
       background-position: 0px 0px;

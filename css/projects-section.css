@@ -25,7 +25,7 @@
     justify-content: center;
     justify-content: space-around;
 }
-.linktree-link, .cancun-link {
+.tic-tac-toe-link, .cancun-link {
     display: inline-block;
     text-align: center;
     padding: 1rem 0;
@@ -37,7 +37,7 @@
 .cancun-link .cancun-site {
     pointer-events: none;
 }
-.linktree-site, .cancun-site  {
+.tic-tac-toe-site, .cancun-site  {
     height: 250px;
     border-radius: 1rem;
     text-align: center;
@@ -60,15 +60,19 @@
     border-radius: 1rem;
     font-size: 14px;
 }
-@media (max-width: 890px) {
+@media (max-width: 390px) {
     .project-div {
         width: 100%; /* Adjust width for two per row */
         margin-bottom: 1rem;
     }
+    .project-header {
+        font-family: 'Times New Roman', Times, serif;
+        margin-bottom: 2rem;
+    }
     .linktree-site {
         width: 75%;
     }
-    .linktree-site, .cancun-site  {
+    .tic-tac-toe-site, .cancun-site  {
         height: 150px;
         width: 100%;
         margin-bottom: 5px;

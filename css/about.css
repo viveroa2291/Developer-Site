@@ -137,3 +137,8 @@
         display: none;
     }
 }
+@media (max-width: 390px) {
+    .about-header {
+        padding-top: 1rem;
+    }
+}
