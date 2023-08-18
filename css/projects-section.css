@@ -60,7 +60,7 @@
     border-radius: 1rem;
     font-size: 14px;
 }
-@media (max-width: 390px) {
+@media (max-width: 890px) {
     .project-div {
         width: 100%; /* Adjust width for two per row */
         margin-bottom: 1rem;
