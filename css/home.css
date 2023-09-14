@@ -286,57 +286,57 @@ header>a:hover {
 }
 @keyframes sunrays-large {
     0% {
-        right: 85%;
+        right: 80%;
         z-index: 3;
     }
     50% {
-        right: 10%;
+        right: 15%;
         /* transform: rotateY(75deg); */
     }
     100% {
-        right: 85%;
+        right: 80%;
         z-index: 4;
     }
 }
 @keyframes moonrays-large {
     0% {
-        right: 10%;
+        right: 15%;
         z-index: 4;
     }
     50% {
-        right: 85%;
+        right: 80%;
         /* transform: rotateY(75deg); */
     }
     100% {
-        right: 10%;   
+        right: 15%;   
         z-index: 3;
     } 
 }
 @keyframes sunrays {
     0% {
-        right: 70%;
+        right: 65%;
         z-index: 3;
     }
     50% {
-        right: 20%;
+        right: 25%;
         /* transform: rotateY(55deg); */
     }
     100% {
-        right: 70%;
+        right: 65%;
         z-index: 4;
     }
 }
 @keyframes moonrays {
     0% {
-        right: 20%;
+        right: 25%;
         z-index: 4;
     }
     50% {
-        right: 70%;
+        right: 65%;
         /* transform: rotateY(55deg); */
     }
     100% {
-        right: 20%;   
+        right: 25%;   
         z-index: 3;
     }
 }
