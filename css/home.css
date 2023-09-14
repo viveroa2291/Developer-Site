@@ -42,7 +42,7 @@ header>a:hover {
 }
 .hello {
     font-family: "Fira Code";
-    margin-top: 6.5rem;
+    padding-top: 5rem;
     color: white;
 }
 .text {
@@ -72,12 +72,12 @@ header>a:hover {
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     transform: rotate(-270deg); 
-    right: 0;
+    right: 10rem;
     top: 75%;
     color: white;
 }
 .image-one {
-    margin-top: 2.5rem;
+    margin-top: 4rem;
     height: 250px;
     z-index: 3;
 }
@@ -90,6 +90,8 @@ header>a:hover {
     background-color: yellow;
     padding: 35px 35px;
     border-radius: 50%;
+    left: 5rem;
+    margin-top: 2rem;
 }
 .curve, .curve2, .curve3 {
     display: inline-block;
@@ -101,13 +103,13 @@ header>a:hover {
     border-radius: 50%/15px 15px 0 0;
 }
 .curve {
-    margin-top: 1rem;
+    margin-top: 2.5rem;
   }
 .curve2 {
-    margin-top: 2rem;
+    margin-top: 3.5rem;
   }
 .curve3 {
-    margin-top: 3rem;
+    margin-top: 4.5rem;
   }
 .curve, .curve2, .curve3 {
     animation: sunrays-large 15s ease-in-out infinite;
@@ -122,13 +124,13 @@ header>a:hover {
     border-radius: 50%/15px 15px 0 0;
 }
 .moon-curve {
-    margin-top: 1rem;
+    margin-top: 2.5rem;
   }
 .moon-curve2 {
-    margin-top: 2rem;
+    margin-top: 3.5rem;
   }
 .moon-curve3 {
-    margin-top: 3rem;
+    margin-top: 4.5rem;
   }
 .moon-curve, .moon-curve2, .moon-curve3 {
     animation: moonrays-large 15s ease-in-out infinite;
@@ -163,20 +165,23 @@ header>a:hover {
     padding: 35px 35px;
     border-radius: 50%;
     box-shadow: 0px 0px 8px 2px rgba(235, 235, 231, 0.301);
-    right: 0;
+    right: 5rem;
+    margin-top: 2rem;
 }
 .crater, .crater2, .crater3 {
     position: absolute;
-    right: 0;
     width: 10px;
     height: 10px;
     border-radius: 50%;
     background-color: transparent;
     box-shadow: inset 2px 0 4px rgba(167, 167, 167, 0.685);
+    
+    right: 5rem;
+    margin-top: 2rem;
 }
 .crater {
     margin-right: 2rem;
-    margin-top: 1rem;
+    margin-top: 5rem;
 }
 .crater2 {
     height: 15px;
@@ -193,8 +198,8 @@ header>a:hover {
     right: 0;
     width: 6.5px;
     height: 6.5px;
-    margin-right: 1.3rem;
-    margin-top: 1.75rem;
+    margin-right: 8rem;
+    margin-top: 4rem;
     border-radius: 50%;
     background-color: transparent;
     box-shadow: inset 2px 0 4px rgba(167, 167, 167, 0.685); 
@@ -207,44 +212,62 @@ header>a:hover {
     .image-one {
         height: 200px;
     }
+    .sun {
+        left: 1rem;
+    }
     .moon {
-        right: 0;
+        right: 1rem;
+        margin-top: 2rem;
+    }
+    .crater {
+        right: .9rem;
+        margin-top: 4rem;
+    }
+    .crater2 {
+        right: .75rem;
+        margin-top: 3rem;
+    }
+    .crater3 {
+        right: 1rem;
+        margin-top: 2.75rem; 
+    }
+    .crater4 {
+        margin-right: 4rem;
+        margin-top: 5rem;
     }
     .curve, .curve2, .curve3 {
-        animation: sunrays 7s ease-in-out infinite;
+        animation: sunrays 10s ease-in-out infinite;
         margin-left: 5rem;
     }
     .curve {
-        margin-top: 1rem;
-      }
-    .curve2 {
-        margin-top: 3rem;
-      }
-    .curve3 {
-        margin-top: 2rem;
-      }
-    .moon-curve, .moon-curve2, .moon-curve3 {
-        animation: moonrays 7s ease-in-out infinite;
-      }
-    .moon-curve {
-        margin-top: 1rem;
-      }
-    .moon-curve2 {
-        margin-top: 2rem;
-      }
-    .moon-curve3 {
-        margin-top: 3rem;
-      }
-} 
-@media (max-width: 390px) {
-    .earth {
-        top: 80%;
+        margin-top: 2.5rem;
     }
+    .curve2 {
+        margin-top: 3.5rem;
+    }
+    .curve3 {
+        margin-top: 4.5rem;
+    }
+    .moon-curve, .moon-curve2, .moon-curve3 {
+        animation: moonrays 10s ease-in-out infinite;
+    }
+    .moon-curve {
+        margin-top: 2.5rem;
+    }
+    .moon-curve2 {
+        margin-top: 3.5rem;
+    }
+    .moon-curve3 {
+        margin-top: 4.5rem;
+    } 
     .scroll-down {
         right: -1rem;
         font-size: 15px;
     }
-}
+    .earth {
+        top: 190%;
+    }
+} 
 @keyframes rotate {
     from {
       background-position: 0px 0px;
