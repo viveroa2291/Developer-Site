@@ -3,6 +3,7 @@
     padding-bottom: 10rem;
     display: flex;
     flex-direction: row;
+    padding-top: 1rem;
 }
 .description {
     width: 50%;
@@ -43,15 +44,15 @@
     left: 24rem;
 }
 .css {
-    margin-top: 28rem;
+    margin-top: 26rem;
     left: 3rem;
 }
 .gitlab {
-    margin-top: 24rem;
+    margin-top: 23rem;
     left: 10rem;
 }
 .c {
-    margin-top: 28rem;
+    margin-top: 26rem;
     left: 18rem;
 }
 .vs-code {
@@ -59,7 +60,7 @@
     margin-left: 14rem;
 }
 .xcode {
-    margin-top: 28rem;
+    margin-top: 26rem;
     left: 30rem;
 }
 .eclipse {
@@ -79,7 +80,7 @@
     margin-left: -10rem;
 }
 .bootstrap {
-    margin-top: 27rem;
+    margin-top: 26rem;
     margin-left: -3rem;
 }
 .sql {
