@@ -1,0 +1,24 @@
+.wik {
+    background-color: black;
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+}
+.wik>h1 {
+    color: white;
+    text-align: center;
+}
+.wik>hr {
+    width: 25%;
+    margin-bottom: 3rem;
+}
+.stats {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+}
+@media (max-width: 890px) {
+    .wik>hr {
+        width: 50%;
+    }
+ }
