@@ -11,6 +11,13 @@
     width: 25%;
     margin-bottom: 3rem;
 }
+.git-stats {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem; 
+    width: 50%;
+}
 .stats {
     display: block;
     margin-left: auto;
@@ -20,5 +27,8 @@
 @media (max-width: 890px) {
     .wik>hr {
         width: 50%;
+    }
+    .git-stats {
+        width: 75%;
     }
  }
