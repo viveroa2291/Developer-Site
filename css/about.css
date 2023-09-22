@@ -3,10 +3,13 @@
     display: flex;
     flex-direction: row;
     padding-top: 1rem;
-    padding-bottom: 20rem;
+    padding-bottom: 10rem;
 }
 .description {
     width: 50%;
+}
+.description>hr {
+    display: none;
 }
 .about-header {
     text-align: center;
@@ -142,13 +145,14 @@
 @media (max-width: 890px) {
     .about-section {
         display: block;
-        padding-bottom: 5rem;
+        padding-bottom: 2rem;
         padding-top: 1rem;
     }
     .description {
         width: 100%;
     }
     .description>hr {
+        display: block;
         width: 50%;
         margin-bottom: 1rem;
     }
