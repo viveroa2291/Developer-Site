@@ -11,6 +11,7 @@ body {
     overflow: hidden;
     white-space: nowrap;
     border-right: .15em solid white;
+    color: white;
     margin: 0;
     letter-spacing: .15em;
     animation: typing 10s steps(30) infinite, blink-caret .75s step-end infinite;
@@ -69,6 +70,10 @@ header>a:hover {
     margin-right: 2rem;
     font-family: "Fira Code";
     color: white;
+}
+.quote {
+    margin-left: 2rem;
+    font-family: "Fira Code"; 
 }
 .title {
     font-family: 'Times New Roman', Times, serif;
@@ -284,6 +289,9 @@ header>a:hover {
     }
     .earth {
         top: 190%;
+    }
+    .quote {
+        word-break: break-all;
     }
 } 
 @keyframes rotate {
