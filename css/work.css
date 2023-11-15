@@ -11,12 +11,14 @@
 .work-section>hr {
     width: 25%;
 }
-.work-section>h3 {
+.job-title {
     text-align: center;
-    margin-right: 22rem;
+    margin-right: 21rem;
+    margin-top: 3rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 0;
 }
-.work-section>p {
+.job-date {
     text-align: center;
     margin-right: 30rem;
     color: rgb(76, 76, 76);
@@ -28,7 +30,8 @@ li {
     width: 50%;
     font-family: 'Times New Roman', Times, serif;
 }
- @media (max-width: 890px) {
+
+@media (max-width: 890px) {
     .work-section>h3 {
         text-align: unset;
         margin-left: 1rem;
@@ -45,4 +48,14 @@ li {
     li {
         width: 95%;
     }
- }
+    .job-title {
+        font-size: 16px;
+        margin-top: 2rem;
+    }
+    .job-date {
+        font-size: 14px;
+    }
+    .job-description {
+        font-size: 12px;
+    }
+}

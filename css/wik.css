@@ -9,7 +9,7 @@
 }
 .wik>hr {
     width: 25%;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 }
 .git-stats {
     display: none;
@@ -23,7 +23,14 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 1rem;
-    width: 50%;
+    width: 35%;
+}
+.programming-languages {
+    display: flex;
+    justify-content: center;
+}
+.programming-languages>img {
+    margin-left: 5px;
 }
 @media (max-width: 890px) {
     .wik>hr {
@@ -34,6 +41,12 @@
         width: 75%;
     }
     .stats {
+        width: 75%;
+    }
+    .programming-languages {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
         width: 75%;
     }
  }
