@@ -12,7 +12,7 @@ body {
     border-right: .15em solid white;
     color: white;
     margin: 0;
-    letter-spacing: .10em;
+    letter-spacing: .01em;
     animation: typing 5s steps(30), blink-caret .25s step-end infinite;
 }
 @keyframes typing {
