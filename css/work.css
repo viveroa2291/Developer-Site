@@ -1,5 +1,8 @@
 .work-section {
+    /*
     background-color: rgb(45, 221, 162);
+    */
+    background-color: white;
     padding-top: 4rem;
     padding-bottom: 4rem;
 }
@@ -32,6 +35,10 @@ li {
 }
 
 @media (max-width: 890px) {
+    .work-section {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
     .work-section>h3 {
         text-align: unset;
         margin-left: 1rem;
